@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { styles } from '../styles/styles'
 import { navLinks } from '../constants'
 import { menu, close } from '../../public/assets'
-import Logo from '../../public/assets/mylogo.png'
+import New from  '../../public/assets/new.png'
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -16,7 +16,7 @@ const Navbar = () => {
           setActive("")
           window.scrollTo(0, 0)
         }}>
-          <Image src={Logo} alt="logo" className='w-9 h-9 object-contain' />
+          <Image src={New} alt="logo" className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer'>KARTHIK K</p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

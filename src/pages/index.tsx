@@ -23,7 +23,7 @@ const Home = () => {
         <title>Karthik K</title>
         <meta name="description" content="A Full Stack Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/mylogo.png" />
+        <link rel="icon" href="assets/new.png" />
       </Head>
       <div className='relative z-0 bg-primary '>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
